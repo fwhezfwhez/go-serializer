@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"fwhezfwhez/go-serializer"
+	"github.com/fwhezfwhez/go-serializer"
 	"time"
 )
 
