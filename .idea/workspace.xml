@@ -6,10 +6,6 @@
       <change afterPath="$PROJECT_DIR$/../errorX/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../errorX/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../errorX/example/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serializer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serializer_test.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../orderedMap/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../orderedMap/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../orderedMap/example/main.go" afterDir="false" />
@@ -42,6 +38,11 @@
       <change beforePath="$PROJECT_DIR$/../github.com/mozillazg/go-pinyin" beforeDir="false" afterPath="$PROJECT_DIR$/../github.com/mozillazg/go-pinyin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../github.com/nsqio/go-nsq" beforeDir="false" afterPath="$PROJECT_DIR$/../github.com/nsqio/go-nsq" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../github.com/xormplus/xorm" beforeDir="false" afterPath="$PROJECT_DIR$/../github.com/xormplus/xorm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serializer.go" beforeDir="false" afterPath="$PROJECT_DIR$/serializer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serializer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/serializer_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../google.golang.org/grpc" beforeDir="false" afterPath="$PROJECT_DIR$/../google.golang.org/grpc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jwt" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qinglong_api" beforeDir="false" afterPath="$PROJECT_DIR$/../qinglong_api" afterDir="false" />
@@ -85,25 +86,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="768" />
+          <entry key="go" value="1243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="768" />
+          <entry key="Go" value="1243" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serializer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="-160">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#20#79#0" expanded="true" />
+                <element signature="e#81#157#0" />
               </folding>
             </state>
           </provider>
@@ -112,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serializer_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="338">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="e#20#56#0" expanded="true" />
               </folding>
@@ -121,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="104">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -141,14 +143,14 @@
   </component>
   <component name="GOROOT" path="E:\go_1.11" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/example/main.go" />
         <option value="$PROJECT_DIR$/serializer.go" />
         <option value="$PROJECT_DIR$/serializer_test.go" />
+        <option value="$PROJECT_DIR$/example/main.go" />
       </list>
     </option>
   </component>
@@ -176,6 +178,11 @@
               <item name="go-serializer" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-serializer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="go-serializer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestUser_ToRepresentation in go-serializer">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-serializer" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -229,13 +236,22 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestUser_ToRepresentation in go-serializer" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestUser_ToRepresentation in go-serializer" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
     <history-entry file="TestUser_ToRepresentation_in_go-serializer - 2018.10.15 at 10h 57m 14s.xml">
+      <configuration name="TestUser_ToRepresentation in go-serializer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUser_ToRepresentation_in_go-serializer - 2018.10.15 at 14h 19m 36s.xml">
+      <configuration name="TestUser_ToRepresentation in go-serializer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUser_ToRepresentation_in_go-serializer - 2018.10.15 at 14h 21m 18s.xml">
+      <configuration name="TestUser_ToRepresentation in go-serializer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUser_ToRepresentation_in_go-serializer - 2018.10.15 at 14h 26m 23s.xml">
       <configuration name="TestUser_ToRepresentation in go-serializer" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -270,17 +286,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serializer_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="338">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#20#56#0" expanded="true" />
           </folding>
@@ -289,11 +298,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serializer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="-160">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#20#79#0" expanded="true" />
+            <element signature="e#81#157#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>

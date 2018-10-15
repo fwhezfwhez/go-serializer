@@ -7,7 +7,7 @@ import (
 )
 
 type User struct {
-	Serializer
+	SerializerI
 	Name       string    `json:"name"`
 	Age        int       `json:"age"`
 	Salary     float64   `json:"salary"`
@@ -18,6 +18,7 @@ func (u User) ToRepresentation(f func(Block)(func(b Block)Block,[]string))([]byt
 }
 func TestUser_ToRepresentation(t *testing.T) {
 	u := User{
+		SerializerI: JsonSerializer{},
 		Name:      "ft2",
 		Age:       9,
 		Salary:    1000,

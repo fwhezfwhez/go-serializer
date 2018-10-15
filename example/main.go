@@ -3,12 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"go-serializer"
+	"fwhezfwhez/go-serializer"
 	"time"
 )
 
 type User struct {
-	serializer.Serializer
+	serializer.SerializerI
 	Name      string    `json:"name"`
 	Age       int       `json:"age"`
 	Salary    float64   `json:"salary"`
@@ -21,6 +21,7 @@ func (u User) ToRepresentation(f func(serializer.Block) (func(b serializer.Block
 
 func main() {
 	u := User{
+		SerializerI: serializer.JsonSerializer{},
 		Name:      "ft2",
 		Age:       9,
 		Salary:    1000,
