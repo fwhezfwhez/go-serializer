@@ -4,6 +4,18 @@ import (
 	"encoding/json"
 	"github.com/fwhezfwhez/errorx"
 )
+
+// A block type aims to mapper the origin struct to a map[string]interface{}
+// For Instance:
+//   struct{
+// 		Name string
+//		Age int
+//   }{
+//		Name: "fwhezfwhez",
+//		Age: 9,
+//    }
+// The Block of the struct would be a map[string]interface{} {"name":"ft","age":9}
+//
 type Block map[string]interface{}
 func (b *Block) Update(key string, value interface{})*Block{
 	(*b)[key] = value
@@ -19,10 +31,11 @@ type SerializerI interface{
 	Serialize(dest interface{},f func(b Block)(func(b Block)Block,[]string))([]byte,error)
 }
 
-type Serializer struct{
+// a json serializer realization
+type JsonSerializer struct{
 }
 
-func (s Serializer) Serialize(dest interface{},f func(b Block)(func(b Block)Block,[]string))([]byte,error){
+func (s JsonSerializer) Serialize(dest interface{},f func(b Block)(func(b Block)Block,[]string))([]byte,error){
 	//1. transfer the struct to a map
 	var m = make(Block,0)
 	buf, er :=json.Marshal(dest)
